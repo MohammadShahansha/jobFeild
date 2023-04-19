@@ -1,26 +1,32 @@
-.main-container{
+.main-container {
     margin-left: 200px;
     margin-right: 100px;
     display: flex;
 }
-.left-part h1{
+
+.left-part h1 {
     font-weight: 800;
-font-size: 50px;
-line-height: 100px;
-color: #1A1919;
-margin-bottom: 24px;
-margin-top: 100px;
-line-height: 70px;
+    font-size: 50px;
+    line-height: 100px;
+    color: #1A1919;
+    margin-bottom: 24px;
+    margin-top: 100px;
+    line-height: 70px;
 }
-.left-part p{
+.left-part span{
+    color: #7E90FE;
+}
+
+.left-part p {
     font-weight: 500;
-font-size: 15px;
-line-height: 30px;
-color: #757575;
-line-height: 18px;
+    font-size: 15px;
+    line-height: 30px;
+    color: #757575;
+    line-height: 18px;
 
 }
-.left-part button{
+
+.left-part button {
     width: 190px;
     height: 65px;
     background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
@@ -29,4 +35,30 @@ line-height: 18px;
     font-size: 20px;
     line-height: 27px;
     color: #FFFFFF;
+}
+
+.job-category h2 {
+    margin: 100px 200px 15px 200px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 66px;
+    color: #1A1919;
+}
+
+.job-category p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+
+    text-align: center;
+    color: #757575;
+}
+
+.job-category-list {
+    margin: 25px 200px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+
 }

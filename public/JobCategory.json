@@ -1,22 +1,27 @@
-[
+ [
     {
-      "name": "Software Development",
-      "icon": "https://example.com/icons/software-development.png",
-      "job_count": 200
+      "id": 1,
+      "name": "Account & Finance",
+      "img": "./Icons/accounts 1.png",
+      "job_count": 300
     },
     {
-      "name": "Marketing",
-      "icon": "https://example.com/icons/marketing.png",
-      "job_count": 250
+      "id": 2,
+      "name": "Creative Design",
+      "img":"./Icons/business 1.png", 
+      "job_count": "100+"
     },
     {
-      "name": "Sales",
-      "icon": "https://example.com/icons/sales.png",
-      "job_count": 100
+      "id": 3,
+      "name": "Marketing & Sales",
+      "img": "./Icons/social-media 1.png",
+      "job_count": 150
     },
     {
-      "name": "Finance",
-      "icon": "https://example.com/icons/finance.png",
-      "job_count": 310
+      "id": 4,
+      "name": "Engineering Job",
+      "img": "./Icons/chip 1.png",
+      "job_count": 224
     }
   ]
+

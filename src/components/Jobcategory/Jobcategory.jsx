@@ -1,9 +1,19 @@
 import React from 'react';
+import './Jobcategory.css';
 
-const Jobcategory = () => {
+const Jobcategory = ({ jobcategory }) => {
+    console.log(jobcategory)
+    const { img, name, job_count } = jobcategory;
     return (
         <div>
-            <h2>here are job category</h2>
+            <div>
+                
+            </div>
+            <div className='job-cart'>
+                <img src={img} alt="" />
+                <h4>{name}</h4>
+                <p>{job_count} Jobs Available</p>
+            </div>
         </div>
     );
 };
