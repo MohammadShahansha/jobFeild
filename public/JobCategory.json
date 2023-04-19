@@ -1,0 +1,22 @@
+[
+    {
+      "name": "Software Development",
+      "icon": "https://example.com/icons/software-development.png",
+      "job_count": 200
+    },
+    {
+      "name": "Marketing",
+      "icon": "https://example.com/icons/marketing.png",
+      "job_count": 250
+    },
+    {
+      "name": "Sales",
+      "icon": "https://example.com/icons/sales.png",
+      "job_count": 100
+    },
+    {
+      "name": "Finance",
+      "icon": "https://example.com/icons/finance.png",
+      "job_count": 310
+    }
+  ]

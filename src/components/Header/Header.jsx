@@ -1,15 +1,17 @@
 import React from 'react';
 import './Header.css';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
         <nav className='nav-container'>
             <h2>Job Feild</h2>
             <div className='links'>
-                <a href="/">Home</a>
-                <a href="/statistics">Statistics</a>
-                <a href="/applie-job">Applied Jobs</a>
-                <a href="/blog">Blog</a>
+                <Link to="/">Home</Link>
+                <Link to="/statistics">Statistics</Link>
+                <Link to="/applie-job">Applied Jobs</Link>
+                <Link to="/blog">Blog</Link>
+                
             </div>
             <button>Star Applying</button>
         </nav>
