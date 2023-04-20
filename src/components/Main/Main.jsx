@@ -2,10 +2,11 @@ import React from 'react';
 import './Main.css';
 import Jobcategory from '../Jobcategory/Jobcategory';
 import { useLoaderData } from 'react-router-dom';
+import JobFeatures from '../JobFeatures/JobFeatures';
 
 const Main = () => {
     const data = useLoaderData();
-    console.log(data)
+    // console.log(data)
     return (
         <main>
             <div className="main-container">
@@ -31,6 +32,7 @@ const Main = () => {
                     ></Jobcategory>)
                 }
             </div>
+            <JobFeatures></JobFeatures>
         </main>
     );
 };

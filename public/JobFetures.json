@@ -1,5 +1,6 @@
 [
     {
+        "id":1,
         "company": "Google LLC",
         "img":"../public/All Images/google-1-1 1.png",
         "jobTitle": "Technical Database Engineer",
@@ -15,6 +16,7 @@
         "experiences":"2-3 Years in this feild"
     },
     {
+        "id":2,
         "company": "Netflix",
         "img":"../public/All Images/netflix-4 1.png",
         "jobTitle": "Senior Product Designer",
@@ -30,6 +32,7 @@
         "experiences":"4 Years in this feild"
     },
     {
+        "id":3,
         "company": "Tesla",
         "img":"../public/All Images/tesla-9 1.png",
         "jobTitle": "Mechanical Engineer",
@@ -45,6 +48,7 @@
         "experiences":"3-4 Years in this feild"
     },
     {
+        "id":4,
         "company": "Microsoft",
         "img":"../public/All Images/microsoft.png",
         "jobTitle": "Software Engineer",
@@ -60,6 +64,7 @@
         "experiences":"2-3 Years in this feild"
     },
     {
+        "id":5,
         "company": "Amazon",
         "img":"../public/All Images/amazon.png",
         "jobTitle": "UX Designer",
@@ -75,6 +80,7 @@
         "experiences":"1-2 Years in this feild"
     },
     {
+        "id":6,
         "company": "Apple",
         "img":"../public/All Images/apple.png",
         "jobTitle": "Product Manager",
