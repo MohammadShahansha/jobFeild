@@ -13,6 +13,7 @@ import Main from './components/Main/Main';
 import AppliedJob from './components/AppliedJob/AppliedJob';
 import Blog from './components/Blog/Blog';
 import JobFeatures from './components/JobFeatures/JobFeatures';
+import JobDetails from './components/JobDetails/JobDetails';
 // import Jobcategory from './components/Jobcategory/Jobcategory';
 
 
@@ -27,12 +28,18 @@ const router = createBrowserRouter([
         loader: () => fetch('JobCategory.json')
       },
       {
-        path: "/",
-        element:<JobFeatures></JobFeatures>
-      },
-      {
         path:"/statistics",
         element: <Statistics></Statistics>
+      },
+      // {
+      //   path:"/jobdetaile/:jobdetaileId",
+      //   element:<JobDetails></JobDetails>,
+      //   loader:({params}) => fetch(`/JobFetures.json/${params.jobdetaileId}`)
+      // },
+      {
+        path:"/jobdetaile/:id",
+        element:<JobDetails></JobDetails>,
+        loader:()=> fetch('/JobFetures.json')
       },
       {
         path: "/applie-job",

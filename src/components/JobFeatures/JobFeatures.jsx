@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './JobFeatures.css';
 import Feature from '../Feature/Feature';
-import JobDetails from '../JobDetails/JobDetails';
+// import JobDetails from '../JobDetails/JobDetails';
 // import JobDetails from '../JobDetails/JobDetails';
 
 const JobFeatures = () => {
@@ -12,9 +12,9 @@ const JobFeatures = () => {
             .then(response => response.json())
             .then(data => setFeatures(data));
     }, []);
-    const handleViewButton = features => {
-        console.log(features);
-    }
+    // const handleViewButton = features => {
+    //     console.log(features);
+    // }
     // console.log(features);
     const sliceFeatures = features.slice(0, 4);
     return (
@@ -24,13 +24,11 @@ const JobFeatures = () => {
                     sliceFeatures.map(feature => <Feature
                         key={feature.id}
                         feature={feature}
-                        handleViewButton={handleViewButton}
+                        // handleViewButton={handleViewButton}
                     ></Feature>)
                 }
             </div>
-            <div>
-                
-            </div>
+            
         </div>
     );
 };

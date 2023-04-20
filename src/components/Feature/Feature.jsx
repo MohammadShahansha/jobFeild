@@ -1,11 +1,13 @@
 import React from 'react';
 import './Feature.css';
+import JobDetails from '../JobDetails/JobDetails';
+import { Link } from 'react-router-dom';
 // import JobDetails from '../JobDetails/JobDetails';
 // import { Link } from 'react-router-dom';
 
-const Feature = ({feature,handleViewButton}) => {
+const Feature = ({feature}) => {
     // console.log(feature);
-    const {img,jobTitle,company,location,salary} = feature;
+    const {img,jobTitle,company,location,salary,id} = feature;
     return (
         <div className='features'>
             <img src={img} alt="" />
@@ -20,7 +22,7 @@ const Feature = ({feature,handleViewButton}) => {
                 <p>{location}</p>
                 <p>Salary:${salary}</p>
             </div>
-           <button onClick={() => handleViewButton({feature})} className='view-button'>View Details</button>
+           <p><Link to={`/jobdetaile/${id}`}>View Details</Link></p>
             
             
         </div>

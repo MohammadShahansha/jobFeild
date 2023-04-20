@@ -1,0 +1,17 @@
+.job-feature-container{
+    margin: 200px 200px;
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+   gap: 22px;
+}
+
+.job-feature-container div p{
+    font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+color: #757575;
+}
+.job-feature-container div p span{
+    font-weight: bold;
+    color: black;
+}
