@@ -1,12 +1,14 @@
-// import React, { useEffect, useState } from 'react';
+
 import { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 import './JobDetails.css';
+import { addToDb } from '../../Utilities/FackeDb';
 
 const JobDetails = () => {
-    // const description = useLoaderData();
-    // console.log(description);
-    // const {jobDescription,responsibilities,requirements ,experiences } = description;s
+    const handleAddToCart = id => {
+        console.log(id);
+        addToDb(id);
+    }
     const { id } = useParams();
     const jobData = useLoaderData();
     const [jobs, setJobs] = useState({})
@@ -62,7 +64,13 @@ const JobDetails = () => {
                         </div>
                         <p className='location'>{location}</p>
                     </div>
-                    <button className='apply-button'>Apply Now</button>
+                    <button
+                    onClick={()=>handleAddToCart(jobs.id)}
+                    type='button'
+                     className='apply-button'
+                     >
+                        Apply Now
+                    </button>
                 </div>
 
             </div>

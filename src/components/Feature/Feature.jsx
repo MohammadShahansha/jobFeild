@@ -2,12 +2,10 @@ import React from 'react';
 import './Feature.css';
 import JobDetails from '../JobDetails/JobDetails';
 import { Link } from 'react-router-dom';
-// import JobDetails from '../JobDetails/JobDetails';
-// import { Link } from 'react-router-dom';
 
 const Feature = ({feature}) => {
-    // console.log(feature);
     const {img,jobTitle,company,location,salary,id} = feature;
+   
     return (
         <div className='features'>
             <img src={img} alt="" />
