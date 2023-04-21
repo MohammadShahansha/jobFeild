@@ -1,12 +1,21 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
-
+import Cart from '../Cart/Cart';
+import './AppliedJob.css';
 const AppliedJob = () => {
-    const savedElement = useLoaderData();
-    console.log(savedElement);
+    const carts = useLoaderData();
+    // console.log(carts);
     return (
-        <div>
-            <h1>this is applied job section{savedElement.length}</h1>
+        <div className='applied'>
+            <h1>Applied Job</h1>
+            <div>
+                {
+                    carts.map(cart => <Cart
+                        key={cart.id}
+                        cart={cart}
+                    ></Cart>)
+                }
+            </div>
         </div>
     );
 };

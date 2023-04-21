@@ -36,29 +36,29 @@ const JobDetails = () => {
                         <h2>Job Details</h2>
                         <hr />
                         <div className='salary-detailees info'>
-                            <img src="../../../public/Icons/Frame.png" alt="" />
+                            <img src="/Icons/Frame.png" alt="" />
                             <h5>Salary:</h5>
                             <p>{salary}(per month)</p>
                         </div>
                         <div className='title-detailes info'>
-                            <img src="../../../public/Icons/Frame-1.png" alt="" />
+                            <img src="/Icons/Frame-1.png" alt="" />
                             <h5>Job Title:</h5>
                             <p>{jobTitle}</p>
                         </div>
                         <h5>Contact Information</h5>
                         <hr />
                         <div className='phone-detailes info'>
-                            <img src="../../../public/Icons/Frame-2.png" alt="" />
+                            <img src="/Icons/Frame-2.png" alt="" />
                             <h5>Phone:</h5>
                             <p>{phone}</p>
                         </div>
                         <div className='email-detailes info'>
-                            <img src="../../../public/Icons/Frame-3.png" alt="" />
+                            <img src="/Icons/Frame-3.png" alt="" />
                             <h5>Email:</h5>
                             <p>{email}</p>
                         </div>
                         <div className='address-detailes info'>
-                            <img src="../../../public/Icons/Frame-4.png" alt="" />
+                            <img src="/Icons/Frame-4.png" alt="" />
                             <h5>Address:</h5>
                             <p>{address}</p>
                         </div>

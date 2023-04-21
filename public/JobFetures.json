@@ -11,8 +11,8 @@
         "phone": "+1 (555) 123-4567",
         "email": "jobs@google.com",
         "jobDescription": "Google is looking for a highly skilled and motivated Data Scientist to join our team in Mountain View, CA. In this role, you will use your expertise in statistics, machine learning, and data analysis to help drive business decisions across the company. You will work with cross-functional teams to identify and prioritize data-driven initiatives, and present your findings and recommendations to senior leadership. If you have a passion for data science and a track record of delivering impactful insights, we want to hear from you!",
-        "remote": false,
-        "onsite": true,
+        "jobQuality":"Remote",
+        "jobDuration":"Full Time",
         "experiences":"2-3 Years in this feild",
         "address":"Dhanmondi 32, Sukrabad"
     },
@@ -28,8 +28,8 @@
         "phone": "+1 (555) 123-4567",
         "email": "jobs@netflix.com",
         "jobDescription": "Netflix is looking for a Senior Software Engineer to join our team in Los Gatos, CA. In this role, you will design and develop scalable and reliable software systems, collaborate with cross-functional teams to identify and prioritize engineering initiatives, and write high-quality, maintainable code. If you have a passion for software engineering and a track record of delivering high-quality software, we want to hear from you!",
-        "remote": false,
-        "onsite": true,
+        "jobQuality":"Onsite",
+        "jobDuration":"Full Time",
         "experiences":"4 Years in this feild",
         "address":"Shavar 103, Sukrabad"
     },
@@ -45,8 +45,8 @@
         "phone": "+1 (555) 123-4567",
         "email": "jobs@tesla.com",
         "jobDescription": "Tesla is seeking a talented Mechanical Engineer to join our team in Fremont, CA. In this role, you will design and develop mechanical components and systems for electric vehicles, collaborate with cross-functional teams to identify and prioritize engineering initiatives, and create detailed engineering drawings and specifications. If you have a passion for mechanical engineering and a track record of delivering high-quality designs, we want to hear from you!",
-        "remote": false,
-        "onsite": true,
+        "jobQuality":"Onsite",
+        "jobDuration":"Full Time",
         "experiences":"3-4 Years in this feild",
         "address":"Dhanmondi 32, Sukrabad"
     },
@@ -62,8 +62,8 @@
         "phone": "+1 (555) 123-4567",
         "email": "jobs@microsoft.com",
         "jobDescription": "Microsoft is seeking a talented and passionate Software Engineer to join our team in Redmond, WA. In this role, you will design and develop software solutions to meet business needs, collaborate with cross-functional teams to identify and prioritize software development initiatives, and write clean, maintainable, and efficient code. If you have a track record of delivering high-quality software solutions and a passion for technology, we want to hear from you!",
-        "remote": false,
-        "onsite": true,
+        "jobQuality":"Remote",
+        "jobDuration":"Full Time",
         "experiences":"2-3 Years in this feild",
         "address":"Dhanmondi 32, Sukrabad"
     },
@@ -79,8 +79,8 @@
         "phone": "+1 (555) 123-4567",
         "email": "jobs@amazon.com",
         "jobDescription": "Amazon is looking for a talented UX Designer to join our team in Seattle, WA. In this role, you will design user experiences for Amazon products and services, conduct user research to understand user needs and behaviors, and collaborate with cross-functional teams to identify and prioritize design initiatives. If you have a passion for user-centered design and a track record of delivering high-quality user experiences, we want to hear from you!",
-        "remote": false,
-        "onsite": true,
+        "jobQuality":"Remote",
+        "jobDuration":"Full Time",
         "experiences":"1-2 Years in this feild",
         "address":"Dhanmondi 32, Sukrabad"
     },
@@ -96,8 +96,8 @@
         "phone": "+1 (555) 123-4567",
         "email": "jobs@apple.com",
         "jobDescription": "Apple is seeking an experienced and innovative Product Manager to join our team in Cupertino, CA. In this role, you will define and drive product strategy and roadmap, collaborate with cross-functional teams to identify and prioritize product initiatives, and manage the entire product lifecycle from ideation to launch. If you have a passion for product management and a track record of delivering successful products, we want to hear from you!",
-        "remote": false,
-        "onsite": true,
+        "jobQuality":"Remote",
+        "jobDuration":"Full Time",
         "experiences":"2-3 Years in this feild",
         "address":"Dhanmondi 32, Sukrabad"
     }
