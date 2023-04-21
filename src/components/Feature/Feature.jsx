@@ -20,7 +20,7 @@ const Feature = ({feature}) => {
                 <p>{location}</p>
                 <p>Salary:${salary}</p>
             </div>
-           <p><Link to={`/jobdetaile/${id}`}>View Details</Link></p>
+           <p><Link className='view-details' to={`/jobdetaile/${id}`}>View Details</Link></p>
             
             
         </div>

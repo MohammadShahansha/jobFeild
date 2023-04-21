@@ -1,41 +1,56 @@
-.applied-container{
-   margin: 20px 200px 20px 200px;
-   /* width: 100%; */
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
+.applied-container {
+    margin: 20px 200px 20px 200px;
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.applied-contaner-left-part{
+
+.applied-contaner-left-part {
     display: flex;
     align-items: center;
     gap: 30px;
 }
-.company-img{
+
+.company-img {
     width: 200px;
     height: 50px;
     padding: 80px 40px;
     background: #F4F4F4;
-border-radius: 8px;
+    border-radius: 8px;
 }
-.applied-info h4{
+
+.applied-info h4 {
     font-weight: 800;
-font-size: 24px;
-line-height: 33px;
-color: #474747;
-margin-bottom: 0;
+    font-size: 24px;
+    line-height: 33px;
+    color: #474747;
+    margin-bottom: 0;
 }
-.applied-container p{
+
+.applied-container p {
     font-weight: 400;
-font-size: 15px;
-line-height: 33px;
-color: #757575;
+    font-size: 15px;
+    line-height: 33px;
+    color: #757575;
 }
-.location-salary p{
+
+.location-salary p {
     display: flex;
     align-items: center;
 }
-.location-salary{
+
+.location-salary {
     display: flex;
     align-items: center;
     gap: 20px;
+}
+
+.view-details {
+    text-decoration: none;
+    color: white;
+    padding: 20px 30px;
+
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    border-radius: 4px;
 }

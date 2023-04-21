@@ -26,14 +26,7 @@ const JobFeatures = () => {
                     ></Feature>)
                 }
             </div>
-            {/* <div>
-                {
-                    sliceFeatures.map(ft => <JobDetails
-                    key={ft.id}
-                    handleAddToCart={handleAddToCart}
-                    ></JobDetails>)
-                }
-            </div> */}
+            
             
         </div>
     );

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Cart = ({cart}) => {
     console.log(cart);
-    const {img,jobTitle,jobDuration ,jobQuality,company,location,salary}= cart;
+    const {img,jobTitle,jobDuration ,jobQuality,company,location,salary,id}= cart;
     return (
         <div  className="applied-container">
             <div className='applied-contaner-left-part'>
@@ -20,7 +20,7 @@ const Cart = ({cart}) => {
                     </div>
                 </div>
             </div>
-            <p><Link>View Details </Link></p>
+            <p><Link className='view-details' to={`/jobdetaile/${id}`}>View Details </Link></p>
         </div>
     );
 };
