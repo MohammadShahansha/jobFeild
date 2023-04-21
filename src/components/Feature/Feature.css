@@ -40,6 +40,14 @@
     color: #474747;
 
 }
+.features button{
+    padding: 9px 19px;
+    gap: 10px;
+    border-radius: 4px;
+    width: 100px;
+    height: 40px;
+    color: #6377fc;
+}
 
 .features img {
     margin: 0px;

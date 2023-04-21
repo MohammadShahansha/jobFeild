@@ -4,6 +4,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: 1px solid #E8E8E8;
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .applied-contaner-left-part {
@@ -53,4 +57,19 @@
 
     background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
     border-radius: 4px;
+}
+
+.applied-info button {
+    padding: 9px 19px;
+    gap: 10px;
+    border-radius: 4px;
+    width: 100px;
+    height: 40px;
+    color: #6d80fb;
+
+}
+
+.button {
+    display: flex;
+    gap: 10px;
 }
