@@ -18,10 +18,11 @@ const JobDetails = () => {
             setJobs(checkData);
         }
     }, [id])
-    console.log(jobs);
+    // console.log(jobs);
     const { jobDescription, salary, requirements, responsibilities, experiences, jobTitle, phone, email, address, location } = jobs;
     return (
         <div>
+            <h1 className='details'>Job Details</h1>
             <div className='job-feature-container'>
                 <div className='job-feature-left-part'>
                     <p><span>Job Description:</span>{jobDescription}</p>
