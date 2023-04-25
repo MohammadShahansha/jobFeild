@@ -15,8 +15,23 @@
     background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
     border-radius: 8px;
     color: white; 
+    font-size: x-large;
     width: 200px; 
     height: 65px; 
    
    
+}
+
+@media screen and (max-width: 575px) {
+    .feature-container {
+        margin: 30px 25px;
+        display: grid;
+        gap: 25px;
+        grid-template-columns: repeat(1, 1fr);
+    
+    }
+    .seeAllJob {
+        margin: 0 auto;
+       
+    }
 }

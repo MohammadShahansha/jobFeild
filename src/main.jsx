@@ -18,6 +18,7 @@ import createLoader from './components/Loader/Loader';
 import SeeAllJob from './components/SeeAllJob/SeeAllJob';
 import Remotes from './components/Remotes/Remotes';
 import Onsites from './components/Onsites/Onsites';
+import ErrorPage from './components/ErrorPage/ErrorPage';
 // import Jobcategory from './components/Jobcategory/Jobcategory';
 
 
@@ -25,6 +26,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Home></Home>,
+    errorElement:<ErrorPage></ErrorPage>,
     children: [
       {
         path:"/",
@@ -35,11 +37,6 @@ const router = createBrowserRouter([
         path:"/statistics",
         element: <Statistics></Statistics>
       },
-      // {
-      //   path:"/jobdetaile/:jobdetaileId",
-      //   element:<JobDetails></JobDetails>,
-      //   loader:({params}) => fetch(`/JobFetures.json/${params.jobdetaileId}`)
-      // },
       {
         path:"/jobdetaile/:id",
         element:<JobDetails></JobDetails>,
