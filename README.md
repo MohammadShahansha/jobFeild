@@ -9,3 +9,4 @@
   + Feature.jsx, Feature.css etc
 + In public, I keep all images and icons as well as two json file such JobCaegory.json and JobFeture.json.
 + In Utilities, I keep a js file where I write how to add/remove a data in/from localstorage .
++ Finally added a error page which name is ErrorPage.jsx and it show which error are occure.
