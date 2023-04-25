@@ -22,7 +22,6 @@ const Feature = ({ feature }) => {
             </div>
             <p><Link className='view-details' to={`/jobdetaile/${id}`}>View Details</Link></p>
 
-
         </div>
     );
 };

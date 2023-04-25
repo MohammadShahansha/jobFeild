@@ -15,6 +15,9 @@ import Blog from './components/Blog/Blog';
 import JobFeatures from './components/JobFeatures/JobFeatures';
 import JobDetails from './components/JobDetails/JobDetails';
 import createLoader from './components/Loader/Loader';
+import SeeAllJob from './components/SeeAllJob/SeeAllJob';
+import Remotes from './components/Remotes/Remotes';
+import Onsites from './components/Onsites/Onsites';
 // import Jobcategory from './components/Jobcategory/Jobcategory';
 
 
@@ -50,6 +53,21 @@ const router = createBrowserRouter([
       {
         path:"/blog",
         element:<Blog></Blog>
+      },
+      {
+        path:"/seeAllJob",
+        element:<SeeAllJob></SeeAllJob>,
+        loader:() => fetch('/JobFetures.json')
+      },
+      {
+        path:"/seeRemoteJob",
+        element:<Remotes></Remotes>,
+        loader: createLoader
+      },
+      {
+        path:"/seeOnsiteJob",
+        element:<Onsites></Onsites>,
+        loader: createLoader
       }
     ]
   }

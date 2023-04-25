@@ -1,5 +1,5 @@
 import React from 'react';
-import { useLoaderData } from 'react-router-dom';
+import { Link, useLoaderData } from 'react-router-dom';
 import Cart from '../Cart/Cart';
 import './AppliedJob.css';
 const AppliedJob = () => {
@@ -8,7 +8,11 @@ const AppliedJob = () => {
     return (
         <div className='applied'>
             <h1>Applied Job</h1>
-            <div>
+            <div className='cart'>
+                <div className='seeAppliedJob'>
+                    <Link className='seeRemoteJob' to={`/seeRemoteJob`}>See Remote Job</Link>
+                    <Link className='seeOnsiteJob' to={`/seeOnsiteJob`}>See Onsite Job</Link>
+                </div>
                 {
                     carts.map(cart => <Cart
                         key={cart.id}

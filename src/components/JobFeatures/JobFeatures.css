@@ -1,7 +1,22 @@
-.feature-container{
+.feature-container {
     margin: 30px 200px;
     display: grid;
     gap: 25px;
-    grid-template-columns: repeat(2,1fr);
-    
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.seeAllJob {
+    margin: 30px 200px 30px 625px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    border-radius: 8px;
+    color: white; 
+    width: 200px; 
+    height: 65px; 
+   
+   
 }
