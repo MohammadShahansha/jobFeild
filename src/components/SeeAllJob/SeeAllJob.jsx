@@ -3,15 +3,13 @@ import Feature from '../Feature/Feature';
 
 const SeeAllJob = () => {
     const [features, setFeatures] = useState([]);
-    // const handleAddToCart = id => {
-    //     console.log(id);
-    // }
 
     useEffect(() => {
-        fetch('../../../public/JobFetures.json')
+        fetch('/JobFetures.json')
             .then(response => response.json())
             .then(data => setFeatures(data));
     }, []);
+    // console.log(features);
     return (
         <div>
             <div className='feature-container'>

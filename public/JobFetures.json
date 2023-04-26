@@ -2,7 +2,7 @@
     {
         "id":1,
         "company": "Google LLC",
-        "img":"../public/All Images/google-1-1 1.png",
+        "img":"/All Images/google-1-1 1.png",
         "jobTitle": "Technical Database Engineer",
         "location": "Dhaka, Bangladesh",
         "responsibilities": "Develop and implement statistical models and algorithms to solve business problems,Work with large datasets to extract meaningful insights,Collaborate with cross-functional teams to identify and prioritize data-driven initiatives,Collaborate with cross-functional teams to identify and prioritize data-driven initiatives",
@@ -19,7 +19,7 @@
     {
         "id":2,
         "company": "Netflix",
-        "img":"../public/All Images/netflix-4 1.png",
+        "img":"/All Images/netflix-4 1.png",
         "jobTitle": "Senior Product Designer",
         "location": "Dhaka, Bangladesh",
         "responsibilities": "Design and develop scalable and reliable software systems,Collaborate with cross-functional teams to identify and prioritize engineering initiatives,Write high-quality, maintainable code,Participate in code reviews and provide constructive feedback,Stay up-to-date with emerging trends and technologies in software engineering",
@@ -36,7 +36,7 @@
     {
         "id":3,
         "company": "Tesla",
-        "img":"../public/All Images/tesla-9 1.png",
+        "img":"/All Images/tesla-9 1.png",
         "jobTitle": "Mechanical Engineer",
         "location": "Dhaka, Bangladesh",
         "responsibilities": "Design and develop mechanical components and systems for electric vehicles,Collaborate with cross-functional teams to identify and prioritize engineering initiatives,Create detailed engineering drawings and specifications,Conduct design reviews and provide constructive feedback,Stay up-to-date with emerging trends and technologies in mechanical engineering",
@@ -53,7 +53,7 @@
     {
         "id":4,
         "company": "Microsoft",
-        "img":"../public/All Images/microsoft.png",
+        "img":"/All Images/microsoft.png",
         "jobTitle": "Software Engineer",
         "location": "Dhaka, Bangladesh",
         "responsibilities": "Design and develop software solutions to meet business needs,Collaborate with cross-functional teams to identify and prioritize software development initiatives,Write clean, maintainable, and efficient code,Debug and troubleshoot software issues,Stay up-to-date with emerging trends and technologies in software engineering",
@@ -70,7 +70,7 @@
     {
         "id":5,
         "company": "Amazon",
-        "img":"../public/All Images/amazon.png",
+        "img":"/All Images/amazon.png",
         "jobTitle": "UX Designer",
         "location": "Dhaka, Bangladesh",
         "responsibilities": "Design user experiences for Amazon products and services, conduct user research to understand user needs and behaviors ,Create wireframes, prototypes, and visual designs to communicate design concepts,Collaborate with cross-functional teams to identify and prioritize design initiatives, Stay up-to-date with emerging trends and technologies in UX design",
@@ -87,7 +87,7 @@
     {
         "id":6,
         "company": "Apple",
-        "img":"../public/All Images/apple.png",
+        "img":"/All Images/apple.png",
         "jobTitle": "Product Manager",
         "location": "Dhaka, Bangladesh",
         "responsibilities": "Define and drive product strategy and roadmap,Collaborate with cross-functional teams to identify and prioritize product initiatives,Manage the entire product lifecycle from ideation to launch,Collect and analyze user feedback to inform product decisions,Communicate product vision and strategy to stakeholders",

@@ -6,16 +6,13 @@ import { Link } from 'react-router-dom';
 
 const JobFeatures = () => {
     const [features, setFeatures] = useState([]);
-    // const handleAddToCart = id => {
-    //     console.log(id);
-    // }
 
     useEffect(() => {
-        fetch('../../../public/JobFetures.json')
+        fetch('/JobFetures.json')
             .then(response => response.json())
             .then(data => setFeatures(data));
     }, []);
-    
+    // console.log(features);
     const sliceFeatures = features.slice(0, 4);
     return (
         <div>

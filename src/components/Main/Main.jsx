@@ -6,7 +6,7 @@ import JobFeatures from '../JobFeatures/JobFeatures';
 
 const Main = () => {
     const data = useLoaderData();
-    console.log(data)
+    // console.log(data)
     return (
         <main>
             <div className="main-container">
@@ -16,7 +16,7 @@ const Main = () => {
                     <span><button>Get Started</button></span>
                 </div>
                 <div>
-                    <img src="../../../public/All Images/P3OLGJ1 copy 1.png" alt="" />
+                    <img src="/All Images/P3OLGJ1 copy 1.png" alt="" />
                 </div>
             </div>
             <div className='job-category'>

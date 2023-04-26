@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 const Feature = ({ feature }) => {
     const { img, jobTitle, jobDuration, jobQuality, company, location, salary, id } = feature;
 
+    console.log(feature);
     return (
         <div className='features'>
             <img src={img} alt="" />
@@ -16,7 +17,7 @@ const Feature = ({ feature }) => {
                 <button className='full-time'>{jobDuration}</button>
             </div>
             <div className='locaton-salary'>
-                <img src="../../../public/Icons/Location Icon.png" alt="" />
+                <img src="/Icons/Location Icon.png" alt="" />
                 <p>{location}</p>
                 <p>Salary:${salary}</p>
             </div>

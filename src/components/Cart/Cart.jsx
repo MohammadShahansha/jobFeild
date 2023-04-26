@@ -3,7 +3,7 @@ import './Cart.css';
 import { Link } from 'react-router-dom';
 
 const Cart = ({ cart }) => {
-    console.log(cart);
+    // console.log(cart);
     const { img, jobTitle, jobDuration, jobQuality, company, location, salary, id } = cart;
     return (
         <div className="applied-container">
@@ -17,8 +17,8 @@ const Cart = ({ cart }) => {
                         <button>{jobDuration}</button>
                     </div>
                     <div className='location-salary'>
-                        <p><img src="../../../public/Icons/Location Icon.png" alt="" />{location}</p>
-                        <p><img src="../../../public/Icons/Frame.png" alt="" />${salary}</p>
+                        <p><img src="/Icons/Location Icon.png" alt="" />{location}</p>
+                        <p><img src="/Icons/Frame.png" alt="" />${salary}</p>
                     </div>
                 </div>
             </div>
