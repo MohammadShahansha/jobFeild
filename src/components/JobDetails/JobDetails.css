@@ -1,5 +1,5 @@
 .job-feature-container {
-    margin: 200px 200px;
+    margin: 20px 200px;
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 22px;
@@ -65,4 +65,18 @@ line-height: 27px;
 cursor: pointer;
 color: #FFFFFF;
 
+}
+
+
+@media screen and (max-width: 575px){
+    /* .info {
+       flex-direction: column;
+    } */
+    .job-feature-container {
+        margin: 20px 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 22px;
+        margin-bottom: 20px;
+    }
 }
